@@ -3,6 +3,7 @@
 // Adott egy tömb, amiben egymás melletti felhőkarcolók magasságát tároljuk, pl.: [2, 4, 8, 3, 9, 7, 1].
 // Számítsuk ki a szomszédos felhőkarcolók magasságkülönbségének az összegét.
 // A fenti példára a válasz 25 lenne, hiszen 2 + 4 + 5 + 6 + 2 + 6 = 25.
+
 int abs(int n) {
     if(n < 0) {
         return -n;
